@@ -1,0 +1,193 @@
+/*
+    Email: william_zouzas@student.uml.edu
+    Date Created: 9/9/2021
+
+    File: style.css
+    GUI Assignment: Creating Your First Web Page
+    File Description: This is the first web page I have created using HTML and CSS for GUI Programming I.
+
+    Copyright (c) 2021 by William. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+    Updated by WZ on 
+*/
+
+/*Body of Webpage - Includes background color of webpage and information to style the font*/
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/*Header Style - This class is used to style groups of text on the webpage, inclyding titles and paragraphs*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Main Header - This header contains the title of the webpage, Willyum, and is placed in the top center of the page in large text*/
+#main-header{
+    background-color: beige;
+    color:navy;
+    font-family: Didot, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Styling the Navigation Bar - The navigation bar has a similar style to the main header with the navy and beige theme*/
+#navbar{
+    background-color: navy;
+    color: beige;
+    text-align: center;
+    font-family: Didot, serif;
+}
+
+/*Unordered List - Navigation Bar - This section is meant to change the format of the list with the navigation bar titles so that it can be rearranged*/
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+/*List Item - Navigation Bar - The list items are displayed in line instead of vertically on top of each other*/
+#navbar li{
+    display: inline;
+}
+
+/*Navigation Bar Links - The links are styled differently here so that they are easier to read on the navy background*/
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/*William + Yum = Willyum - The main showcase of the home page has a title with a picture of cookie dough in the background. The image is formatted here in CSS rather than HTML since it is being used as a background picture*/
+#showcase{
+    background-image: url('../images/cookiedough.jpg');
+    background-size: 1500px;
+    background-position: center;
+    text-align: center;
+    font-family: Didot, serif;
+    min-height: 300px;
+}
+
+/*Heading - The first showcase id is styling the background mostly, while this section is styling the text of the header*/
+#showcase h1{
+    color: navy;
+    font-size: 70px;
+    line-height: 1em;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+/*Main - Styles the main part of the homepage where most of the text is locaed*/
+#main{
+    float: left;
+    font-family: Didot, serif;
+    color: navy;
+}
+
+/*Footer - Added to the bottom of the homepage with name, date, and copyright*/
+#main-footer{
+    margin-top: 100px;
+    background-color: beige;
+    color: navy;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+/*Styling the ABOUT ME Page - This page has text that is positioned to the right using float so that a picture can be inserted on the left. Furthermore, the text takes up 50% of the width of the available space on the page*/
+#about {
+    font-family: Didot, serif;
+    color: navy;
+    float: right;
+    width: 50%;
+    margin: 20px;
+}
+
+/*Styling the About Header*/
+#about h1{
+    text-align: center;
+    font-size: 28px;
+}
+
+/*Picture of Me - The picture includes a beige background with */
+#me{
+    background-color: beige;
+    padding: 60px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+/*Social Media Links - The links on the About Me page are placed at the bottom with the same font family. The default link style would not look good here*/
+#social{
+    text-align: center;
+    font-family: Didot, serif;    
+}
+
+/*Recipe Description - The description of recipes uses the beige style with the same font family*/
+#description{
+    font-family: Didot, serif;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/**/
+#recipe{
+    font-family: Didot, serif;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/*Links - Since the background is navy (see above section), it would be hard to see the default links so the color was changed for clarity*/
+#recipe a{
+    color: white;
+}
+
+/*YouTube Link - A YouTube video link is added to this page below the ingredient list to give more details so it is styled to maintain a uniform look on the page including the background and padding*/
+#video{
+    background-color: navy;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/*Baked Cookie Photo - The photo of baked cookies is positioned right but restricted to 30% of the page width so that the main text takes up the other 70%*/
+#baked{
+    font-family: Didot, serif;
+    float: right;
+    width: 30%;
+}
+
+/*Travel Text - Style the paragraph and headers for color, background, and font*/
+#travel{
+    color: black;
+    background-color: beige;
+    font-family: Didot, serif;
+    margin: 30px;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+/*Image Alignment - On the Travel page, images are placed in-line with text. This part aligns images to the right*/
+img.align-right{
+    float: right;
+    margin: 20px;
+}
+
+/*Image Alignment - On the Travel page, images are placed in-line with text. This aligns the image to the left using float so that the image shares the page with the corresponding paragraph*/
+img.align-left{
+    float: left;
+    margin: 20px;
+}

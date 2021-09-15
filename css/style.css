@@ -72,17 +72,7 @@ body{
 }
 
 /*Heading - The first showcase id is styling the background mostly, while this section is styling the text of the header*/
-/*#showcase h2{
-    color: navy;
-    font-size: 70px;
-    line-height: 1em;
-    background-color: beige;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-}*/
-
-#second-header h2{
+#showcase h2{
     color: navy;
     font-size: 70px;
     line-height: 1em;

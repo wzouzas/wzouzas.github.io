@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- 
+    Course: COMP.4610 GUI Programming I
+    Name: William Zouzas
+    Email: william_zouzas@student.uml.edu
+    Date Created: 9/9/2021
+
+    Folder: kitchen
+    File: index.html
+    GUI Assignment: Creating Your First Web Page
+    File Description: This is the first web page I have created using HTML and CSS for GUI Programming I.
+
+    Copyright (c) 2021 by William. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+    Updated by WZ on 
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Willyum</title>
+        <!-- stylesheets--> 
+        <link rel="stylesheet" type="text/css" href="/Users/williamzouzas/Documents/Senior Year (Fall 2021)/GUI Programming/GUI HW1/webpage/css/style.css">
+        <!-- scripts -->
+        <!-- <script type=”text/javascript” src="http://url/to/file.js"></script> -->
+    </head>
+
+    <body>
+
+        <!-- Main Website Heading-->
+        <header id="main-header">
+            <div class="container">
+                <h1>Willyum</h1>
+            </div>
+        </header>
+
+        <!-- Navigation Bar-->
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="/Users/williamzouzas/Documents/Senior Year (Fall 2021)/GUI Programming/GUI HW1/webpage/index.html"><b>Home</b></a></li>
+                    <li><a href="/Users/williamzouzas/Documents/Senior Year (Fall 2021)/GUI Programming/GUI HW1/webpage/about/index.html"><b>About Me</b></a></li>
+                    <li><a href="kitchen/index.html"><b>In the Kitchen</b></a></li>
+                    <li><a href="/Users/williamzouzas/Documents/Senior Year (Fall 2021)/GUI Programming/GUI HW1/webpage/travel/index.html"><b>Food & Travel</b></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Recipe Introduction -->
+        <div class="container">
+            <!-- This first description portion is just an overview of the recipes to follow and are separated with different styles compared to the recipe section. -->
+            <section id="description">
+                <h1><em><b>My Favorite Recipes</b></em></h1>
+                <p>Here are some recent treats I’ve made. I am a big fan of Claire Saffitz. You may know her from Gourmet Makes on YouTube. Now, she has her own YouTube channel, <a href="https://www.youtube.com/c/ClaireSaffitzxDessertPerson">Claire Saffitz Dessert Person</a>, named after her first cookbook, <a href="https://www.amazon.com/Dessert-Person-Recipes-Guidance-Confidence/dp/1984826964">Dessert Person</a>. So far, I have made two of her cookie recipes and they were home runs. Brown butter is the unsung hero in these cookies and brings out a salty, savory, caramel, and deep butterscotch flavor that balances with the other flavors perfectly. These pair perfectly with ice cream for ice cream sandwiches.</p>
+                <p>In addition to cookies, I also love making cakes, pudding, and pies. I am also a big fan of coconut, so when I was trying to decide what to make for Easter, I ended up making coconut cream pie from <cite>The New York Times Cooking</cite> recipe. This pie was the star of the show and was beloved by everyone, young and old. It was soft, creamy, rich but light, fluffy, easy to make, and full of coconut flavor. Months later, my family still compliments that coconut cream pie and they cannot wait to see what I make for next Easter. I hope you enjoy these recipes as much as I did. Enjoy!</p>
+            </section>
+
+            <!-- The recipes are separated by a different section so that they can be styled differently in the CSS code. Each recipe is formatted using tables in HTML.-->
+            <div class="container">
+                <section id="recipe">
+                    <!-- First Recipe from Dessert Person -->
+                    <h2>Brown Butter Chocolate Chip Cookies from <cite>Dessert Person</cite> by Claire Saffitz</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Measurements</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Unsalted butter</td>
+                                <td>2 sticks</td>
+                                <td>Cut into tablespoons</td>
+                            </tr>
+                            <tr>
+                                <td>Heavy cream</td>
+                                <td>2 tablespoons</td>
+                            </tr>
+                            <tr>
+                                <td>All purpose flour</td>
+                                <td>2 cups</td>
+                            </tr>
+                            <tr>
+                                <td>Diamond crystal kosher salt</td>
+                                <td>2 teaspoons</td>
+                            </tr>
+                            <tr>
+                                <td>Baking soda</td>
+                                <td>1 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td>Packed dark brown sugar</td>
+                                <td>3/4 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Granulated sugar</td>
+                                <td>3/4 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Large eggs</td>
+                                <td>2 eggs</td>
+                                <td>Cold from refrigerator</td>
+                            </tr>
+                            <tr>
+                                <td>Vanilla extract</td>
+                                <td>1 tablespoon</td>
+                            </tr>
+                            <tr>
+                                <td>Bittersweet chocolate disks</td>
+                                <td>5 ounces</td>
+                                <td>Half coarsely chopped</td>
+                            </tr>
+                            <tr>
+                                <td>Milk chocolate disks</td>
+                                <td>5 ounces</td>
+                                <td>Half coarsely chopped</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>   
+
+                <!-- Link to Recipe/YT Video -->
+                <section id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kPauR6tP_cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+
+                <section id="recipe">
+                    <!-- Second Recipe from The New York Times Cooking -->
+                    <!-- This recipe is formatted very similarly to the recipe above, except that there are three separate tables created for each separated section of the ingredients list. There are three main components including the crust, filling, and topping. -->
+                    <h2>Coconut Cream Pie from <cite>The New York Times Cooking</cite> by Valerie Gordon</h2>
+                    <!-- Crust -->
+                    <h3><u>For the Crust</u></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Measurements</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>All purpose flour</td>
+                                <td>1 1/4 cups</td>
+                                <td>Sifted</td>
+                            </tr>
+                            <tr>
+                                <td>Salt</td>
+                                <td>1/2 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td>Sugar</td>
+                                <td>1/2 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td>Shortening</td>
+                                <td>1/4 cup</td>
+                                <td>Chilled, cut into pieces</td>
+                            </tr>
+                            <tr>
+                                <td>Unsalted butter</td>
+                                <td>1/3 cup</td>
+                                <td>Chilled, cut into pieces</td>
+                            </tr>
+                            <tr>
+                                <td>Ice water</td>
+                                <td>2-5 tablespoons</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Filling -->
+                    <h3><u>For the Filling</u></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Measurements</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Evaporated milk</td>
+                                <td>1 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Heavy cream</td>
+                                <td>1 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Sugar</td>
+                                <td>1/2 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Egg yolks</td>
+                                <td>6 yolks</td>
+                            </tr>
+                            <tr>
+                                <td>Cornstarch</td>
+                                <td>1 tablespoon</td>
+                            </tr>
+                            <tr>
+                                <td>Unsalted butter</td>
+                                <td>1 tablespoon</td>
+                                <td>Softened</td>
+                            </tr>
+                            <tr>
+                                <td>Vanilla extract</td>
+                                <td>1/4 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td>Coconut extract</td>
+                                <td>1/4 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td>Cream of coconut</td>
+                                <td>3 tablespoons</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Topping -->
+                    <h3><u>For the Topping</u></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Measurements</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sweetened shredded coconut or unsweetened coconut flakes</td>
+                                <td>1 cup</td>
+                            </tr>
+                            <tr>
+                                <td>Heavy cream</td>
+                                <td>2 cups</td>
+                            </tr>
+                            <tr>
+                                <td>Sugar</td>
+                                <td>4 tablespoons</td>
+                            </tr>
+                            <tr>
+                                <td>Vanilla extract</td>
+                                <td>1 teaspoon</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
+
+                <!-- Link to Recipe Source -->
+                <section id="recipe">
+                    <a href="https://cooking.nytimes.com/recipes/1015341-coconut-cream-pie">See the full recipe intstructions from <cite>NYT Cooking</cite> here</a>
+                </section>
+            </div>
+        
+  
+        <!-- Main Footer (shows up on each webpage)-->
+        <footer id="main-footer">
+            <p><b>Copyright &copy; 2021 William Zouzas</b></p>
+        </footer>
+ 
+
+    </body>
+</html>

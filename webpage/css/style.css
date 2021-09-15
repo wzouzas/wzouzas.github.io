@@ -1,0 +1,165 @@
+/*Body of Webpage*/
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: beige;
+    color:navy;
+    font-family: Didot, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Styling the Navigation Bar*/
+#navbar{
+    background-color: navy;
+    color: beige;
+    text-align: center;
+    font-family: Didot, serif;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/*William + Yum = Willyum*/
+#showcase{
+    background-image: url('../images/cookiedough.jpg');
+    background-size: 1500px;
+    background-position: center;
+    text-align: center;
+    font-family: Didot, serif;
+    min-height: 300px;
+}
+
+#showcase h1{
+    color: navy;
+    font-size: 70px;
+    line-height: 1em;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#main{
+    float: left;
+    font-family: Didot, serif;
+    color: navy;
+}
+
+#main-footer{
+    margin-top: 100px;
+    background-color: beige;
+    color: navy;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+/*Styling the ABOUT ME Page*/
+#about {
+    font-family: Didot, serif;
+    color: navy;
+    float: right;
+    width: 50%;
+    margin: 20px;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 28px;
+}
+
+#me{
+    background-color: beige;
+    padding: 60px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+/*Social Media Link Styling*/
+#social{
+    text-align: center;
+    font-family: Didot, serif;    
+}
+
+/*Recipe Description*/
+#description{
+    font-family: Didot, serif;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#recipe{
+    font-family: Didot, serif;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#recipe a{
+    color: white;
+}
+
+#video{
+    background-color: navy;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#baked{
+    font-family: Didot, serif;
+    float: right;
+    width: 30%;
+}
+
+#travel{
+    color: black;
+    background-color: beige;
+    font-family: Didot, serif;
+    margin: 30px;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+/*On the Travel page, images are placed in-line with text*/
+img.align-right{
+    float: right;
+    margin: 20px;
+}
+
+img.align-left{
+    float: left;
+    margin: 20px;
+}

@@ -74,7 +74,7 @@ body{
 }
 
 /*Heading - The first showcase id is styling the background mostly, while this section is styling the text of the header*/
-#showcase h1{
+#showcase h2{
     color: navy;
     font-size: 70px;
     line-height: 1em;

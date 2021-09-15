@@ -1,13 +1,11 @@
 /*
-    Email: william_zouzas@student.uml.edu
-    Date Created: 9/9/2021
-
+    Folder: css
     File: style.css
     GUI Assignment: Creating Your First Web Page
-    File Description: This is the first web page I have created using HTML and CSS for GUI Programming I.
-
+    File Description: This file is used to style the webpage for this assignment. Each section is connected to the HTML structure of the website in order to style it by changing colors, backgrounds, fonts, and more. The main theme that is styled using this CSS file is navy and beige. The purpose of each section is indicated by a comment above the section.
+    William Zouzas, UMass Lowell, william_zouzas@student.uml.edu
     Copyright (c) 2021 by William. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
-    Updated by WZ on 
+    Updated by WZ on September 15th, 2021 at 5:00 pm
 */
 
 /*Body of Webpage - Includes background color of webpage and information to style the font*/

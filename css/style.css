@@ -2,7 +2,9 @@
     Folder: css
     File: style.css
     COMP.4610 GUI Programming I Assignment: Creating Your First Web Page
-    File Description: This file is used to style the webpage for this assignment. Each section is connected to the HTML structure of the website in order to style it by changing colors, backgrounds, fonts, and more. The main theme that is styled using this CSS file is navy and beige. The purpose of each section is indicated by a comment above the section.
+    File Description: This file is used to style the webpage for this assignment. Each section is connected to the HTML 
+    structure of the website in order to style it by changing colors, backgrounds, fonts, and more. The main theme that is 
+    styled using this CSS file is navy and beige. The purpose of each section is indicated by a comment above the section.
     William Zouzas, UMass Lowell, william_zouzas@student.uml.edu
     Copyright (c) 2021 by William. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
     Updated by WZ on September 15th, 2021 at 5:00 pm
@@ -61,7 +63,8 @@ body{
     padding-right: 15px;
 }
 
-/*William + Yum = Willyum - The main showcase of the home page has a title with a picture of cookie dough in the background. The image is formatted here in CSS rather than HTML since it is being used as a background picture*/
+/*William + Yum = Willyum - The main showcase of the home page has a title with a picture of cookie dough in the background. 
+The image is formatted here in CSS rather than HTML since it is being used as a background picture*/
 #showcase{
     background-image: url('../images/cookiedough.jpg');
     background-size: 1500px;
@@ -99,7 +102,8 @@ body{
     padding-bottom: 20px;
 }
 
-/*Styling the ABOUT ME Page - This page has text that is positioned to the right using float so that a picture can be inserted on the left. Furthermore, the text takes up 50% of the width of the available space on the page*/
+/*Styling the ABOUT ME Page - This page has text that is positioned to the right using float so that a picture can be 
+inserted on the left. Furthermore, the text takes up 50% of the width of the available space on the page*/
 #about {
     font-family: Didot, serif;
     color: navy;
@@ -122,7 +126,8 @@ body{
     border-radius: 20px;
 }
 
-/*Social Media Links - The links on the About Me page are placed at the bottom with the same font family. The default link style would not look good here*/
+/*Social Media Links - The links on the About Me page are placed at the bottom with the same font family. 
+The default link style would not look good here*/
 #social{
     text-align: center;
     font-family: Didot, serif;    
@@ -147,12 +152,14 @@ body{
     margin: 20px;
 }
 
-/*Links - Since the background is navy (see above section), it would be hard to see the default links so the color was changed for clarity*/
+/*Links - Since the background is navy (see above section), it would be hard to see the default 
+links so the color was changed for clarity*/
 #recipe a{
     color: white;
 }
 
-/*YouTube Link - A YouTube video link is added to this page below the ingredient list to give more details so it is styled to maintain a uniform look on the page including the background and padding*/
+/*YouTube Link - A YouTube video link is added to this page below the ingredient list to give more details 
+so it is styled to maintain a uniform look on the page including the background and padding*/
 #video{
     background-color: navy;
     padding: 20px;
@@ -161,7 +168,8 @@ body{
     text-align: center;
 }
 
-/*Baked Cookie Photo - The photo of baked cookies is positioned right but restricted to 30% of the page width so that the main text takes up the other 70%*/
+/*Baked Cookie Photo - The photo of baked cookies is positioned right but restricted to 30% of the page 
+width so that the main text takes up the other 70%*/
 #baked{
     font-family: Didot, serif;
     float: right;
@@ -184,7 +192,8 @@ img.align-right{
     margin: 20px;
 }
 
-/*Image Alignment - On the Travel page, images are placed in-line with text. This aligns the image to the left using float so that the image shares the page with the corresponding paragraph*/
+/*Image Alignment - On the Travel page, images are placed in-line with text. This aligns the image to the left using 
+float so that the image shares the page with the corresponding paragraph*/
 img.align-left{
     float: left;
     margin: 20px;
